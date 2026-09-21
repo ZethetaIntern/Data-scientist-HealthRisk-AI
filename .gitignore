@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large regenerated artifacts are reproducible via src/ scripts,
+# but the trained model is small and useful to keep out of diffs churn.
+*.joblib
