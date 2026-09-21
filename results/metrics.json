@@ -1,0 +1,16 @@
+{
+  "n_train": 3200,
+  "n_test": 800,
+  "best_model": "Logistic Regression",
+  "best_cv_auc": 0.8776369158968125,
+  "best_test_auc": 0.8886600483380546,
+  "best_accuracy": 0.80625,
+  "best_recall": 0.7267080745341615,
+  "best_precision": 0.7774086378737541,
+  "best_f1": 0.7512038523274478,
+  "all_test_auc": {
+    "Logistic Regression": 0.8887,
+    "Random Forest": 0.8786,
+    "Gradient Boosting": 0.8832
+  }
+}
